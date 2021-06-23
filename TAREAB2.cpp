@@ -175,7 +175,7 @@ int main(){
 		            	 system("pause>nul"); // Pausa 
 						break;
 					}
-		                
+		                //PARTE DE JONATHAN RAMIREZ 
 		            case 5:{
 		            	 int  filas2, columnas2;
 						cout<<"Digite el numero de filas: ";
