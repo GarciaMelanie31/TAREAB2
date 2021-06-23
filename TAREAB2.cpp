@@ -47,7 +47,7 @@ int main(){
 						break;
 					}
 		            	
-		                
+		             // PARTE DE CONTRERAS MONTAÑO LUIS MIGUEL   
 		            case 2:{
 		            	int  filas2, columnas2;
 						cout<<"Digite el numero de filas: ";
