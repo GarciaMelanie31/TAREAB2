@@ -89,7 +89,7 @@ int main(){
 						 system("pause>nul"); // Pausa 
 						break;
 					}
-		                
+					
 		            case 3:{
 		            	 int  filas2, columnas2;
 						cout<<"Digite el numero de filas: ";
