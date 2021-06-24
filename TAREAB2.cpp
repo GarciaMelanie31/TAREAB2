@@ -201,7 +201,7 @@ int main(){
 							}
 						}
 						
-						//PROSESO DE DIVICION 
+						//PROSESO DE DIVISION 
 						for(int i=0;i<filas2;i++){
 						for(int j=0;j<columnas2;j++){
 						C[i][j]=A[i][j]/B[i][j];
