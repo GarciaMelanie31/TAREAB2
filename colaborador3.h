@@ -1,17 +1,6 @@
-//COLABORADOR3 - PONGA SU NOMBRE
+//COLABORADOR3 - MANZABA
 void potencia(float (*m1)[5], int p, float (*r)[5])
 {
-  //INGRESE EL CODIGO PARA REALIZAR LA POTENCIA DE LA PRIMERA MATRIZ
-#include <iostream>
-
-#include <cstdlib>
-
-
-
-using namespace std;
-
-
-
     int base;
 
     int exponente;
