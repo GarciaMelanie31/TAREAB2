@@ -4,7 +4,7 @@
 using namespace std;
 #include "colaborador1.h"
 //#include "colaborador2.h"
-//#include "colaborador3.h"
+#include "colaborador3.h"
 //#include "colaborador4.h"
 //#include "colaborador5.h"
 
@@ -44,11 +44,10 @@ int main() {
         //mostrar(resultado);
         //break;
       //}
-      //case 3:{
-        //potencia(matriz1,2,resultado);
-        //mostrar(resultado);
-        //break;
-      //}
+      case 3:
+        potencia(matriz1,2,resultado);
+        mostrar(resultado);
+        break;
       //case 4:{
         //transpuesta(matriz1,resultado);
         //mostrar(resultado);
