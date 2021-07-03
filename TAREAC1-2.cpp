@@ -40,25 +40,25 @@ int main() {
         mostrar(matriz2);
         break;
       }
-      case 2:{
-        producto(matriz1,matriz2,resultado);
-        mostrar(resultado);
-        break;
-      }
-      case 3:{
-        potencia(matriz1,2,resultado);
-        mostrar(resultado);
-        break;
-      }
-      case 4:{
-        transpuesta(matriz1,resultado);
-        mostrar(resultado);
-        break;
-      }
-      case 5:{
-        mediayvarianza(matriz1,matriz2);
-        break;
-      }
+      //case 2:{
+       //producto(matriz1,matriz2,resultado);
+        //mostrar(resultado);
+        //break;
+      //}
+      //case 3:{
+        //potencia(matriz1,2,resultado);
+        //mostrar(resultado);
+        //break;
+      //}
+      //case 4:{
+        //transpuesta(matriz1,resultado);
+        //mostrar(resultado);
+        //break;
+      //}
+      //case 5:{
+        //mediayvarianza(matriz1,matriz2);
+        //break;
+      //}
         if(op!=0){
           cout<<"Opcion no permitida !\n" << "Press Enter to continue\n";
           flag=cin.ignore().get();
