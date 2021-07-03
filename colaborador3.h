@@ -1,4 +1,4 @@
-//COLABORADOR3 - MANZABA
+//COLABORADOR3 - MANZABA MOISES
 void potencia(float (*m1)[5], int p, float (*r)[5])
 {
     int base;
