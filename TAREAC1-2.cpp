@@ -34,12 +34,11 @@ int main() {
     cout<<" Ingrese una opcion : ;
     cin>>op;
     switch(op){
-      case 1:{
+      case 1:
         ingresar(matriz1,matriz2);
         mostrar(matriz1);
         mostrar(matriz2);
         break;
-      }
       //case 2:{
        //producto(matriz1,matriz2,resultado);
         //mostrar(resultado);
