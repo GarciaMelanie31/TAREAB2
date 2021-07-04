@@ -3,9 +3,9 @@
 #include <stdlib.h>
 using namespace std;
 #include "colaborador1.h"
-//#include "colaborador2.h"
+#include "colaborador2.h"
 #include "colaborador3.h"
-//#include "colaborador4.h"
+#include "colaborador4.h"
 //#include "colaborador5.h"
 
 void mostrar(float(*r)[5])
@@ -39,21 +39,19 @@ int main() {
         mostrar(matriz1);
         mostrar(matriz2);
         break;
-      //case 2:{
-       //producto(matriz1,matriz2,resultado);
-        //mostrar(resultado);
-        //break;
-      //}
+      case 2:
+       producto(matriz1,matriz2,resultado);
+        mostrar(resultado);
+        break;
       case 3:
         potencia(matriz1,2,resultado);
         mostrar(resultado);
         break;
-      //case 4:{
-        //transpuesta(matriz1,resultado);
-        //mostrar(resultado);
-        //break;
-      //}
-      //case 5:{
+      case 4:
+        transpuesta(matriz1,resultado);
+        mostrar(resultado);
+        break;
+      //case 5:
         //mediayvarianza(matriz1,matriz2);
         //break;
       //}
