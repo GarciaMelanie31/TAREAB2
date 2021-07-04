@@ -1,39 +1,28 @@
 //COLABORADOR4 - MUSO LLUMIQUINGA CESAR GEOVANNY
 void transpuesta(float (*m1)[5], float (*r)[5])
 {
-  //INGRESE EL CODIGO PARA REALIZAR LA TRANSPUESTA DE LA PRIMERA MATRIZ
-  
-  #include<iostream>
-  #include<conio.h>
-  
-  using namespace std;
-  
-  int main(){
-    int numeros[5][5];
+    int f,c;
     
-    for(int y=0;y<5;y++){
-      for(int z=0;z<5;z++){
-        cout<<"Digite un numero ["<<y<<"]["<<z<<"]:";
-        cin>>numeros[y][z];
+    for(int i=0;i<f;i++){
+      for(int j=0;j<c;j++){
+        cout<<"Digite un numero ["<<i<<"]["<<j<<"]:";
+        cin>>m1[i][j];
       }
     }
     
     cout<<"\nMatriz Original\n";
-    for(int y=0;y<5;y++){
-      for(int z=0;z<5;z++){
-        cout<<numeros[y][z]<<" ";
+    for(int i=0;i<f;i++){
+      for(int j=0;j<c;j++){
+        cout<<m1[i][j]<<" ";
       }
       cout<<"\n";
     }
     
     cout<<"\nMatriz  Transpuesta\n";
-    for(int y=0;y<5;y++){
-      for(int z=0;z<5;z++){
-        cout<<numeros[z][y]<<" ";
+    for(int i=0;i<f;i++){
+      for(int j=0;j<c;j++){
+        cout<<r[i][j]<<" ";
       }
       cout<<"\n";
     }
-    
-    getch();
-    return 0;
   }
