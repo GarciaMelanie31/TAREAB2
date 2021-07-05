@@ -1,4 +1,0 @@
-//COLABORADOR5 - PONGA SU NOMBRE
-void mediayvarianza(float (*m1)[5], float (*m2)[5])
-{
-  //INGRESE EL CODIGO PARA REALIZAR LA MEDIA Y VARIANZA DE LAS MATRICES
